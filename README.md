@@ -5,7 +5,7 @@ Nowadays facial recognition is widely used and it is commonly used for ID verifi
 Facial recognition is a category of biometric software that maps an individual’s facial features mathematically and stores the data as a faceprint. The software uses deep learning algorithms to compare a live capture or digital image to the stored faceprint in order to verify an individual’s identity.  cite from https://searchenterpriseai.techtarget.com/definition/facial-recognition
 # Principal Component Analysis (PCA)
 PCA was invented in 1901 by Karl Pearson who is the creator of Pearson’s Coefficient Correlation which is a mathematical method to measure the linear relationship between variables. After Karl Person, PCA has been developed many times. PCA is an algorithm of unsupervised learning and widely used to reduce the dimension of the data. PCA is an orthogonal linear transformation which means that PCA can transform data into a new coordinate system such that the greatest variance by some scalar projection of the data comes to lie on the first principal component, the second greatest variance on the second principal component, and so on. This is also called the process of dimensional reduction. The reason why it chooses the direction of bigger variance because it could significantly compress the dimension without losing a lot of information.
-![PCA_PROCESS.png](PCA_PROCESS.png)
+![image/PCA_PROCESS.png](image/PCA_PROCESS.png)
 `By Pablo Martin, Artelnics: https://www.neuraldesigner.com/blog/principal-components-analysis` 
 # Data 
 The data if from sklearn which is ready to use which means that we do not need to do the part of data cleansing and data engineering. After we load the data we can see the data is a dictionary and there are four different keys:

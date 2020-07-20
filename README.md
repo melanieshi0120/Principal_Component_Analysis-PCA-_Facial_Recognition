@@ -13,9 +13,11 @@ The data if from sklearn which is ready to use which means that we do not need t
 - The “DESCR” contains the attribute information. 
 - The ‘data’ is the 2D array (400 *4096) transformed data from “image”. - The “image” contains 400 different matrics and each matric’s shape is 64 by 64 which is the “digital expression” of image. 
 # Tune the number of n_component
+![image/explained_variance.png](image/explained_variance.png)
+
 pca.explained_variance_ratio_returns a vector of the variance explained by each dimension which also implies that the average distance between these points and the origin keeps growing when the dimension increases accordingly. Briefly speaking, our inputs data has 4096 dimensions and if we compress the inputs data into 200 dimensions, we still can obtain most information from inputs data
 ![image/ncom_20.png](image/ncom_20.png)
 # Modeling
 Support Vector Machines (SVM) are one of the most useful techniques in classification problems. SVM algorithm is commonly used for face recognition analysis. The code below is a simple SVM model. If you want to obtain higher accuracy you can apply GridSearch to tune the parameters. Even though best parameters were not applied in this model, the test accuracy already reached around 96%!
 
-Blog: https://medium.com/@melaniesoek0120/principal-component-analysis-pca-facial-recognition-5e1021f55151
+# Blog: https://medium.com/@melaniesoek0120/principal-component-analysis-pca-facial-recognition-5e1021f55151
